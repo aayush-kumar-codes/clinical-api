@@ -1,0 +1,93 @@
+# Ignore compiled Python files
+*/*.pyc
+*.pyo
+*.pyd
+
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore virtual environment files
+venv/
+env/
+*.env
+
+# Ignore IDE and editor specific files
+.vscode/
+*.sublime-workspace
+*.idea/
+
+# Ignore log files
+*.log
+
+# Ignore any build output or artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore package lock files
+pip-lock.txt
+pipfile.lock
+
+# Ignore local configuration files
+settings.ini
+config.ini
+
+# Ignore sensitive or private information
+secrets.yaml
+secrets.json
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Django specific ignores
+# Ignore Django's development settings
+*.settings/
+
+# Ignore static and media files (if not using a CDN)
+/static/hijack/
+student_management_project/student_management_app/static/**/**
+!student_management_project/student_management_app/static/js
+!student_management_project/student_management_app/static/js/*
+media/
+
+# Ignore Django secret key (keep it secret!)
+*.secret_key
+
+# Ignore local development settings
+*.local_settings.py
+
+utils/backups/*
+utils/table_backup/*
+**/__pycache__/*.pyc
+**/*.pyc
+**/**/__pycache__/*.pyc
+**/*.swp
+**/**/utils/__pycache__/*.pyc
+**/static/hijack/*
+student_management_project/student_management_project/.env.production
+student_management_project/student_management_project/.env.development
+
+# virtual env
+compass/
+
+#ruff cache
+
+.ruff_cache/
+student_management_project/student_management_app/utils/credentials.json
+student_management_project/student_management_app/utils/token.json
+package-lock.json
+package.json
+node_modules/**
+node_modules/
+student_management_project/student_management_app/static/plugins/
+dump.sql
+utils/restore/*
+.coverage
+.aider*
