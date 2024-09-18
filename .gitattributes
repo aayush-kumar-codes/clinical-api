@@ -1,1 +1,2 @@
 data/clinicaldata/latest_studies_data.csv filter=lfs diff=lfs merge=lfs -text
+data/clinicaldata/latest_outcomes_data.csv filter=lfs diff=lfs merge=lfs -text
